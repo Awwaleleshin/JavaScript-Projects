@@ -4,11 +4,11 @@ let person = document.querySelector('.person');
 
 const quotes = [
     {
-        quote: `"The only way to do great work is to love what you do." '`,
+        quote: `"The only way to do great work is to love what you do."`,
         person: `Steve Jobs`
     },
     {
-        quote: `"Success is not final, failure is not fatal: It is the courage to continue that counts." '`,
+        quote: `"Success is not final, failure is not fatal: It is the courage to continue that counts."`,
         person: `Winston Churchill`
     },
     {
@@ -16,19 +16,19 @@ const quotes = [
         person: `Theodore Roosevelt`
     },
     {
-        quote: `"In the midst of chaos, there is also opportunity." '`,
+        quote: `"In the midst of chaos, there is also opportunity."`,
         person: `Sun Tzu`
     },
     {
-        quote: `"Opportunities don't happen, you create them." '`,
+        quote: `"Opportunities don't happen, you create them."`,
         person: ` Chris Grosser`
     },
     {
-        quote: `"Strive not to be a success, but rather to be of value." '`,
+        quote: `"Strive not to be a success, but rather to be of value."`,
         person: `Albert Einstein`
     },
     {
-        quote: `"Don't watch the clock; do what it does. Keep going." '`,
+        quote: `"Don't watch the clock; do what it does. Keep going."`,
         person: `Sam Levenson`
     }
 ];
