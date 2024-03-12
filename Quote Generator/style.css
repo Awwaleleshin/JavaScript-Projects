@@ -9,7 +9,7 @@
 body {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 100vh;
     text-align: center;
     background: url(../images/blue-background-7470781_640.jpg) no-repeat center center/ cover;
