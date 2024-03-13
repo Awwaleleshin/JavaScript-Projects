@@ -49,3 +49,8 @@ body {
     overflow: hidden;
     transition: .5s;
 }
+
+/* Javascript styling link */
+.accordion .content-container.active .answer {
+    height: 150px;
+}
