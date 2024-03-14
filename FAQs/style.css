@@ -44,6 +44,7 @@ section {
 .answer {
     max-height: 0;
     overflow: hidden;
+    transition: .5s;
 }
 
 .answer p {
@@ -58,4 +59,9 @@ section {
 
 .faq.active i {
     transform: rotate(180deg);
+    transition: .5s;
+}
+
+.faq.active .question {
+    transition: .5s;
 }
