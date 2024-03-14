@@ -55,3 +55,7 @@ section {
 .faq.active .answer {
     max-height: 300px;
 }
+
+.faq.active i {
+    transform: rotate(180deg);
+}
