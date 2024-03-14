@@ -41,6 +41,11 @@ section {
     font-size: 1.5rem;
 }
 
+.answer {
+    max-height: 0;
+    overflow: hidden;
+}
+
 .answer p {
     padding-top: 1rem;
     line-height: 1.5;
