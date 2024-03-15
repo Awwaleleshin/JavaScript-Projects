@@ -1,0 +1,90 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* End Reset */
+
+:root{
+    --primary-color: #4891ff;
+    --light-color: #f4f4f6;
+    --dark-color: #111;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    background: url(../images/depositphotos_232751862-stock-photo-dark-blue-shabby-wooden-background.jpg) center/cover no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul{
+    display: flex;
+}
+
+.navbar ul li a{
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar ul a i{
+    margin-right: 10px;
+}
+
+.navbar ul li:last-child a{
+    margin-left: 10px;
+}
+
+.navbar ul li a:hover{
+    color: var(--primary-color);
+}
+
+/* Buttons */
+.btn{
+    display: inline-block;
+    padding: 13px 20px;
+    background-color: var(--light-color);
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
